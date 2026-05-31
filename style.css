@@ -485,71 +485,139 @@ button:hover {
    MOBILE RESPONSIVE
 ========================= */
 
-@media (max-width: 768px){
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+    body{
+        overflow-x:hidden;
+    }
 
     .navbar{
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding:15px;
     }
 
     .navbar nav{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
+        display:flex;
+        flex-direction:column;
+        gap:12px;
+        margin-top:10px;
     }
 
-    .hero h1,
-    .about-hero h1,
-    .service-hero h1{
-        font-size: 32px;
+    .hero{
+        height:auto;
+        padding:80px 20px;
     }
 
-    .properties-container,
-    .services-container,
-    .team-container,
-    .why-grid,
-    .why-about-grid,
-    .stats-section{
-        grid-template-columns: 1fr;
+    .hero h1{
+        font-size:32px;
     }
 
-    .about-container,
-    .property-layout,
-    .details-container{
-        flex-direction: column;
-    }
-
-    .about-image img,
-    .property-image img{
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .team-card,
-    .service-card,
-    .card{
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .details-box{
-        margin: 15px;
-    }
-
-    .seller-card{
-        flex-direction: column;
-        text-align: center;
+    .hero p{
+        font-size:16px;
     }
 
     .search-box{
-        flex-direction: column;
-        gap: 10px;
+        display:flex;
+        flex-direction:column;
+        width:100%;
     }
 
     .search-box input,
+    .search-box select,
     .search-box button{
-        width: 100%;
+        width:100%;
+    }
+
+    /* Home Property Cards */
+
+    .property-grid{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    /* Properties Page */
+
+    .property-grid1{
+        grid-template-columns:1fr;
+        padding:20px;
+    }
+
+    .card{
+        width:100%;
+        max-width:350px;
+        margin:auto;
+    }
+
+    /* Why Choose Us */
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* Stats */
+
+    .stats{
+        flex-direction:column;
+        gap:25px;
+        text-align:center;
+    }
+
+    .stats-section{
+        grid-template-columns:1fr;
+    }
+
+    /* About */
+
+    .about-container{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .about-image img{
+        width:100%;
+    }
+
+    .team-container{
+        grid-template-columns:1fr;
+    }
+
+    .why-about-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* Services */
+
+    .services-container{
+        grid-template-columns:1fr;
+        padding:20px;
+    }
+
+    /* Contact */
+
+    .contact-container{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    .team-contact-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* Property Details */
+
+    .details-box{
+        margin:15px;
+        padding:25px;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
     }
 }
