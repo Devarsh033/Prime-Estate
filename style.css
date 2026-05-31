@@ -399,6 +399,21 @@ footer{
         gap:25px;
     }
 
+        .contact{
+        padding:30px 15px;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .contact-info,
+    .contact-form{
+        width:100%;
+    }
+
+
 }
 /* ==================================
    ABOUT PAGE
