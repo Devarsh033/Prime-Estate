@@ -312,109 +312,6 @@ footer{
     padding:20px;
 }
 
-/* ==========================
-   TABLET
-========================== */
-
-@media(max-width:1024px){
-
-    .property-grid1{
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .why-grid{
-        grid-template-columns:repeat(2,1fr);
-    }
-
-}
-
-/* ==========================
-   MOBILE
-========================== */
-
-@media(max-width:768px){
-
-    .navbar{
-        flex-direction:column;
-        text-align:center;
-        padding:15px;
-    }
-
-    .navbar nav{
-        flex-wrap:wrap;
-        justify-content:center;
-        margin-top:15px;
-    }
-
-    .hero{
-        height:auto;
-        padding:100px 20px;
-    }
-
-    .hero-content{
-        top:auto;
-        transform:none;
-    }
-
-    .hero h1{
-        font-size:35px;
-    }
-
-    .hero p{
-        font-size:16px;
-    }
-
-    .search-box{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    .search-box input,
-    .search-box select,
-    .search-box button{
-        width:100%;
-        max-width:350px;
-    }
-
-    .property-grid{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    .property-grid1{
-        grid-template-columns:1fr;
-    }
-
-    .card{
-        width:100%;
-        max-width:350px;
-    }
-
-    .why-grid{
-        grid-template-columns:1fr;
-    }
-
-    .stats{
-        flex-direction:column;
-        gap:25px;
-    }
-
-        .contact{
-        padding:30px 15px;
-    }
-
-    .contact-container{
-        grid-template-columns:1fr;
-        gap:20px;
-    }
-
-    .contact-info,
-    .contact-form{
-        width:100%;
-    }
-
-
-}
 /* ==================================
    ABOUT PAGE
 ================================== */
@@ -780,4 +677,94 @@ button:hover{
         max-width:100%;
         height:auto;
     }
+}
+
+
+/* ==========================
+   TABLET
+========================== */
+
+@media(max-width:1024px){
+
+    .property-grid1{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .why-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        text-align:center;
+        padding:15px;
+    }
+
+    .navbar nav{
+        flex-wrap:wrap;
+        justify-content:center;
+        margin-top:15px;
+    }
+
+    .hero{
+        height:auto;
+        padding:100px 20px;
+    }
+
+    .hero-content{
+        top:auto;
+        transform:none;
+    }
+
+    .hero h1{
+        font-size:35px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .search-box{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .search-box input,
+    .search-box select,
+    .search-box button{
+        width:100%;
+        max-width:350px;
+    }
+
+    .property-grid{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .property-grid1{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        width:100%;
+        max-width:350px;
+    }
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    .stats{
+        flex-direction:column;
+        gap:25px;
+    }
+
 }
