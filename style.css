@@ -495,8 +495,8 @@ footer{
 
 .team-container{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:30px;
+    grid-template-columns:repeat(3,1fr);
+    gap:50px;
 }
 
 .team-card{
@@ -514,6 +514,7 @@ footer{
     width:150px;
     height:150px;
     object-fit:cover;
+    justify-self:center;
     border-radius:50%;
     margin-bottom:20px;
 }
@@ -562,6 +563,7 @@ footer{
     color:#fff;
     border-radius:8px;
     cursor:pointer;
+    margin-top:20px;
 }
 
 /* ==================================
@@ -655,7 +657,8 @@ footer{
 .contact-card img{
     width:120px;
     height:120px;
-    object-fit:cover;
+    object-fit:cover;    
+    justify-self:center;
     border-radius:50%;
     margin-bottom:15px;
 }
@@ -672,6 +675,7 @@ footer{
     color:white;
     border-radius:8px;
     cursor:pointer;
+    margin-top:20px;
 }
 
 /* ==================================
