@@ -758,6 +758,48 @@ button:hover{
         max-width:350px;
     }
 
+    .contact-hero h1{
+        font-size:38px;
+    }
+
+    .contact-container{
+        flex-direction:column;
+        padding:15px;
+        gap:20px;
+    }
+
+    .contact-info,
+    .contact-form{
+        width:100%;
+        padding:20px;
+    }
+
+    .team-contact-grid{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .contact-card{
+        width:100%;
+        margin:auto;
+    }
+
+    .contact-card img{
+        width:100px;
+        height:100px;
+    }
+
+    .contact-cta h1{
+        font-size:30px;
+        padding:0 15px;
+    }
+
+    .contact-cta button{
+        width:80%;
+        max-width:250px;
+    }
+
     .why-grid{
         grid-template-columns:1fr;
     }
