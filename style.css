@@ -922,7 +922,8 @@ footer{
    MOBILE RESPONSIVE
 ========================= */
 
-@media screen and (max-width:768px){
+@media(max-width:768px)
+{
 
     .navbar{
         flex-direction:column;
